@@ -1,0 +1,66 @@
+*{
+    background-color: gray;
+    color: black;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 10px 0;
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color: #b4bcc5;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+.congratulations-message {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.random-number {
+    background-color: #f9f9f9;
+    color: blue;
+}
+.attempts {
+    background-color: #f9f9f9;
+    color: red;
+}
